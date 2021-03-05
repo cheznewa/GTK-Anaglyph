@@ -49,6 +49,13 @@ button:active
 {
 background-color:black;
 color:rgba(0,0,0,0);
+text-shadow:-3 0 red,3 0 cyan;
+box-shadow:-3 0 cyan,3 0 red;
+}
+button:checked
+{
+background-color:black;
+color:rgba(0,0,0,0);
 text-shadow:-2 0 red,2 0 cyan;
 box-shadow:-2 0 cyan,2 0 red;
 }
@@ -173,7 +180,7 @@ switch:checked
 {
 background-color:magenta;
 color:white;
-box-shadow:5 0 blue,-5 0 red;
+box-shadow:2 0 blue,-2 0 red;
 }
 arrow
 {
