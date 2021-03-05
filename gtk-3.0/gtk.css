@@ -106,7 +106,7 @@ background-color:black;
 selection
 {
 color:rgba(0,0,0,0);
-text-shadow:3 0 red,-3 0 cyan;
+text-shadow:2 0 cyan,-2 0 red;
 }
 entry,textview.view
 {
