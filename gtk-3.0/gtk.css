@@ -1,0 +1,188 @@
+.background
+{
+background-color:white;
+color:black;
+}
+scale
+{
+background-color:black;
+color:rgba(0,0,0,0);
+text-shadow:5 0 red,-5 0 cyan;
+box-shadow:5 0 cyan,-5 0 red;
+}
+notebook header tab
+{
+background-color:white;
+color:rgba(0,0,0,0);
+text-shadow:4 0 cyan,-4 0 red;
+box-shadow:4 0 red,-4 0 cyan;
+}
+notebook header tab:backdrop
+{
+background-color:white;
+color:rgba(0,0,0,0);
+text-shadow:4 0 cyan,-4 0 red;
+box-shadow:4 0 red,-4 0 cyan;
+}
+notebook header tab:checked
+{
+background-color:black;
+color:rgba(0,0,0,0);
+text-shadow:6 0 red,-6 0 cyan;
+box-shadow:6 0 cyan,-6 0 red;
+}
+button
+{
+background-color:black;
+color:rgba(0,0,0,0);
+text-shadow:5 0 red,-5 0 cyan;
+box-shadow:5 0 cyan,-5 0 red;
+}
+button:hover
+{
+background-color:black;
+color:rgba(0,0,0,0);
+text-shadow:7 0 red,-7 0 cyan;
+box-shadow:7 0 cyan,-7 0 red;
+}
+button:active
+{
+background-color:black;
+color:rgba(0,0,0,0);
+text-shadow:-2 0 red,2 0 cyan;
+box-shadow:-2 0 cyan,2 0 red;
+}
+button:disabled
+{
+background-color:black;
+box-shadow:0 0 cyan,0 0 red;
+text-shadow:0 0 red,0 0 cyan;
+color:white;
+}
+check,radio
+{
+background-color:black;
+color:white;
+box-shadow:5 0 cyan,-5 0 red;
+}
+check:disabled
+{
+background-color:black;
+color:white;
+box-shadow:0 0 cyan,0 0 red;
+}
+radio:disabled
+{
+background-color:black;
+color:white;
+box-shadow:0 0 cyan,0 0 red;
+}
+scrollbar slider
+{
+padding:3px;
+background-color:white;
+color:white;
+box-shadow:5 0 red,-5 0 cyan;
+}
+scrollbar slider:hover
+{
+padding:3px;
+background-color:white;
+color:white;
+box-shadow:7 0 red,-7 0 cyan;
+}
+scrollbar slider:active
+{
+padding:3px;
+background-color:white;
+color:white;
+box-shadow:3 0 red,-3 0 cyan;
+}
+scrollbar
+{
+padding:3px;
+background-color:black;
+}
+selection
+{
+color:rgba(0,0,0,0);
+text-shadow:3 0 red,-3 0 cyan;
+}
+entry,textview.view
+{
+color:black;
+border:solid 1px;
+border-color:black;
+}
+menuitem
+{
+border:solid 1px;
+border-color:black;
+background-color:white;
+color:rgba(0,0,0,0);
+text-shadow:1 0 cyan,-1 0 red;
+}
+menuitem:hover
+{
+border:solid 1px;
+border-color:white;
+background-color:black;
+color:rgba(0,0,0,0);
+text-shadow:3 0 red,-3 0 cyan;
+}
+progressbar progress
+{
+background-color:black;
+text-shadow:5 0 red,-5 0 cyan;
+box-shadow:5 0 cyan,-5 0 red;
+}
+progressbar trough
+{
+background-color:white;
+}
+scale
+{
+margin:1px;
+}
+scale slider
+{
+padding:5px;
+background-color:magenta;
+text-shadow:6 0 red,-6 0 blue;
+box-shadow:6 0 blue,-6 0 red;
+}
+scale slider:hover
+{
+padding:5px;
+background-color:magenta;
+box-shadow:7 0 blue,-7 0 red;
+}
+switch
+{
+background-color:black;
+color:white;
+box-shadow:5 0 cyan,-5 0 red;
+}
+switch:checked
+{
+background-color:magenta;
+color:white;
+box-shadow:5 0 blue,-5 0 red;
+}
+arrow
+{
+padding:7px;
+color:white;
+}
+frame
+{
+border:solid 1px;
+border-color:gray;
+}
+treeview:selected
+{
+color:white;
+background-color:black;
+color:rgba(0,0,0,0);
+text-shadow:3 0 red,-3 0 cyan;
+}
