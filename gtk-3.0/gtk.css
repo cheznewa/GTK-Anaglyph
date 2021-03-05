@@ -163,6 +163,12 @@ background-color:black;
 color:white;
 box-shadow:5 0 cyan,-5 0 red;
 }
+switch:backdrop
+{
+background-color:black;
+color:white;
+box-shadow:5 0 cyan,-5 0 red;
+}
 switch:checked
 {
 background-color:magenta;
