@@ -117,7 +117,15 @@ text-shadow:2 0 cyan,-2 0 red;
 }
 entry,textview.view
 {
+color:rgba(0,0,0,0);
+text-shadow:1 0 cyan,-1 0 red;
+border:solid 1px;
+border-color:black;
+}
+entry:disabled
+{
 color:black;
+text-shadow:0 0 cyan,0 0 red;
 border:solid 1px;
 border-color:black;
 }
@@ -198,4 +206,29 @@ color:white;
 background-color:black;
 color:rgba(0,0,0,0);
 text-shadow:3 0 red,-3 0 cyan;
+}
+combobox
+{
+color:rgba(0,0,0,0);
+text-shadow:1 0 cyan,-1 0 red;
+}
+combobox:disabled
+{
+color:black;
+text-shadow:0 0 cyan,0 0 red;
+}
+button.link
+{
+color:rgba(0,0,0,0);
+text-shadow:2.5 0 red,-2.5 0 blue;
+}
+button.link:hover
+{
+color:rgba(0,0,0,0);
+text-shadow:4 0 red,-4 0 blue;
+}
+button.link:active
+{
+color:rgba(0,0,0,0);
+text-shadow:-2 0 red,2 0 blue;
 }
