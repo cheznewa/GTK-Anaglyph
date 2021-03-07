@@ -159,18 +159,29 @@ scale
 {
 margin:1px;
 }
-scale slider
+scale.vertical slider
 {
 padding:5px;
 background-color:magenta;
-text-shadow:6 0 red,-6 0 blue;
 box-shadow:6 0 blue,-6 0 red;
 }
-scale slider:hover
+scale.vertical slider:hover
 {
 padding:5px;
 background-color:magenta;
 box-shadow:7 0 blue,-7 0 red;
+}
+scale.horizontal slider
+{
+padding:5px;
+background-color:magenta;
+box-shadow:6 0 red,-6 0 blue;
+}
+scale.horizontal slider:hover
+{
+padding:5px;
+background-color:magenta;
+box-shadow:7 0 red,-7 0 blue;
 }
 switch
 {
